@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "snowpack dev",
+    "build": "snowpack build"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,8 @@
     "postcss": "^8.3.0",
     "postcss-cli": "^8.3.1",
     "snowpack": "^3.5.6",
-    "tailwindcss": "^2.1.4"
-  }
+    "tailwindcss": "^2.1.4",
+    "autoprefixer": "^10.2.6"
+  },
+  "dependencies": {}
 }

@@ -1,12 +1,11 @@
 module.exports = {
-  mount: {},
-  plugins: [
-    "@snowpack/plugin-postcss"
-  ],
-  packageOptions: {},
-  devOptions: {
-    tailwindConfig: "./tailwind.config.js"
+  mount: {
+    src: "/dist",
+    public: "/"
   },
+  devOptions: {tailwindConfig: "./tailwind.config.js"},
+  plugins: ["@snowpack/plugin-postcss"],
+  packageOptions: {},
   buildOptions: {},
   optimize: {
     bundle: true,
