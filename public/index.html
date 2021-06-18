@@ -12,12 +12,15 @@
     <script src="dist/index.js" type="module"></script>
 </head>
 <body>
-    <main class="flex">
-        <div>
-            <h1>I'm developing something new!</h1>
-            <p>Stay tuned and check out some <a href="https://github.com/nathan-pham" rel="noreferer">projects</a> in the meantime.</p>
+    <main class="flex flex-wrap items-stretch flex-col-reverse md:flex-row md:h-screen">
+        <div class="flex flex-col justify-between px-10 py-8 bg-indigo-400 flex-initial md:w-1/2">
+            <div>
+                <h1 class="text-4xl font-bold mb-5">I'm making something new!</h1>
+                <p class="text-lg">I'm currently working on the new Del Oro FFA website. It'll be cool, I promise. In the meantime, you can <a href="https://evolve-painting.vercel.app/" rel="noreferer" target="_blank" class="text-white cursor-pointer">evolve the Mona Lisa</a> or play with a <a href="https://minecraft-chest.vercel.app/" rel="noreferer" target="_blank" class="text-white cursor-pointer">Minecraft chest</a>.</p>
+            </div>
+            <a href="http://deloro.puhsd.k12.ca.us/home" class="text-lg text-white cursor-pointer mt-10">← back to the deloro website</a>
         </div>
-        <div>
+        <div class="flex justify-center align-center px-16 py-4 flex-initial md:w-1/2">
             <img src="imgs/working.svg" alt="working" />
         </div>
     </main>
